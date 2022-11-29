@@ -41,9 +41,22 @@ public class Colour {
         }
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this.red == obj.red && this.green == obj.green && this.blue == obj.blue)
-        return super.equals(obj);
+    public double getRed() {
+        return red;
+    }
+
+    public double getGreen() {
+        return green;
+    }
+
+    public double getBlue() {
+        return blue;
+    }
+
+    public boolean equals(Colour colour) {
+        if (this.red == colour.red && this.green == colour.green && this.blue == colour.blue)
+            return true;
+        else
+            return false;
     }
 }
