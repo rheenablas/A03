@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="One parameter Colour constructor created.">
+    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="Created the equals method in Colour.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tddcolour/a03/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tddcolour/a03/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
       <recent name="tddcolour.a03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.equalColours">
+  <component name="RunManager" selected="JUnit.ColourTest.checkColourNoArgument">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -99,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTest.equalColours" />
         <item itemvalue="JUnit.ColourTest.checkColourNoArgument" />
+        <item itemvalue="JUnit.ColourTest.equalColours" />
         <item itemvalue="JUnit.ColourTest" />
       </list>
     </recent_temporary>
@@ -149,7 +150,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669757305197</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Testing if colours of the same component are equal.">
+      <created>1669762582830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669762582830</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Override the equals method in Colour.java">
+      <created>1669762714732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669762714732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created the equals method in Colour.java">
+      <created>1669762858286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669762858286</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created the equals method in Colour.java">
+      <created>1669762876570</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669762876570</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +198,9 @@
     <MESSAGE value="Created first Colour constructor with 3 parameters." />
     <MESSAGE value="Test two: check one parameter constructor is not null" />
     <MESSAGE value="One parameter Colour constructor created." />
-    <option name="LAST_COMMIT_MESSAGE" value="One parameter Colour constructor created." />
+    <MESSAGE value="Testing if colours of the same component are equal." />
+    <MESSAGE value="Override the equals method in Colour.java" />
+    <MESSAGE value="Created the equals method in Colour.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the equals method in Colour.java" />
   </component>
 </project>

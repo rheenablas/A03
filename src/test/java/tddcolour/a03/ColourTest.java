@@ -24,6 +24,12 @@ class ColourTest {
 
 
     @Test
+    @DisplayName("Colour with no argument throws an exception")
+    void checkNoArgumentConstructor(){
+        assertThrows(Exception.class, () -> new Colour());
+    }
+
+    @Test
     @DisplayName("Colour of same components are the same")
     void equalColours(){
         colour = new Colour(0.5, 0.4, 0.5);
