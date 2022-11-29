@@ -40,6 +40,9 @@ public class Colour {
             }
         }
     }
+    public Colour() throws Exception{
+        throw new Exception();
+    }
 
     public double getRed() {
         return red;
@@ -54,7 +57,7 @@ public class Colour {
     }
 
     public boolean equals(Colour colour) {
-        if (this.red == colour.red && this.green == colour.green && this.blue == colour.blue)
+        if (this.red == colour.getRed() && this.green == colour.getGreen() && this.blue == colour.getBlue())
             return true;
         else
             return false;
