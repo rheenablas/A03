@@ -21,4 +21,22 @@ class ColourTest {
         colour = new Colour(43);
         assertNotNull(colour);
     }
+
+
+    @Test
+    @DisplayName("Colour of same components are the same")
+    void equalColours(){
+        colour = new Colour(0.5, 0.4, 0.5);
+        Colour colour1 = new Colour(0.5, 0.4, 0.5);
+        Colour colour2 = new Colour(0.5, 0.5, 0.5);
+        Colour colour3 = new Colour(12);
+        Colour colour4 = new Colour(12);
+        Colour colour5 = new Colour(15);
+
+        assertTrue(colour.equals(colour1));
+        assertFalse(colour.equals(colour2));
+        assertFalse(colour4.equals(colour5));
+
+
+    }
 }
