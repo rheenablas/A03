@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="Created the equals method in Colour.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tddcolour/a03/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tddcolour/a03/ColourTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="Simplified the equals method in Colour.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +174,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669762876570</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Check no argument constructor throws an exception">
+      <created>1669764276234</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669764276234</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created no argument constructor with exception">
+      <created>1669764307471</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669764307471</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Simplified the equals method in Colour.java">
+      <created>1669764337758</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669764337758</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +218,9 @@
     <MESSAGE value="Testing if colours of the same component are equal." />
     <MESSAGE value="Override the equals method in Colour.java" />
     <MESSAGE value="Created the equals method in Colour.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the equals method in Colour.java" />
+    <MESSAGE value="Check no argument constructor throws an exception" />
+    <MESSAGE value="Created no argument constructor with exception" />
+    <MESSAGE value="Simplified the equals method in Colour.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplified the equals method in Colour.java" />
   </component>
 </project>

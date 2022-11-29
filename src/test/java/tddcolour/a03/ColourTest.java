@@ -9,15 +9,15 @@ class ColourTest {
 
     Colour colour;
     @Test
-    @DisplayName("Colour with three float parameters is not null")
-    void checkColourThreeParameters(){
+    @DisplayName("Colour with three float arguments is not null")
+    void checkColourThreeArgumentsConstructor(){
         colour = new Colour(0.0, 0.4, 0.65);
         assertNotNull(colour);
     }
 
     @Test
-    @DisplayName("Colour with one parameter is not null")
-    void checkColourOneParameter(){
+    @DisplayName("Colour with one arguments is not null")
+    void checkColourOneArgumentConstructor(){
         colour = new Colour(43);
         assertNotNull(colour);
     }
