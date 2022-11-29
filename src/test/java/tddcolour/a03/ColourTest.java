@@ -14,4 +14,11 @@ class ColourTest {
         colour = new Colour(0.0, 0.4, 0.65);
         assertNotNull(colour);
     }
+
+    @Test
+    @DisplayName("Colour with one parameter is not null")
+    void checkColourOneParameter(){
+        colour = new Colour(43);
+        assertNotNull(colour);
+    }
 }
