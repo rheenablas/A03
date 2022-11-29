@@ -40,4 +40,10 @@ public class Colour {
             }
         }
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this.red == obj.red && this.green == obj.green && this.blue == obj.blue)
+        return super.equals(obj);
+    }
 }
