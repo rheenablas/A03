@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="Created first test function that checks if it has 3 parameters for constructor.">
+    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="One parameter Colour constructor created.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669756286079</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created first Colour constructor with 3 parameters.">
+      <created>1669756397783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669756397783</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test two: check one parameter constructor is not null">
+      <created>1669756707682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669756707682</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Created first test function that checks if it has 3 parameters for constructor." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created first test function that checks if it has 3 parameters for constructor." />
+    <MESSAGE value="Created first Colour constructor with 3 parameters." />
+    <MESSAGE value="Test two: check one parameter constructor is not null" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test two: check one parameter constructor is not null" />
   </component>
 </project>
