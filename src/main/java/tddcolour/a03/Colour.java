@@ -1,6 +1,7 @@
 package tddcolour.a03;
 
 
+import java.util.Random;
 
 public class Colour {
 
@@ -11,10 +12,10 @@ public class Colour {
         this.blue = blue;
     }
 
-    public Colour(int rgbTotal) {
-        red = (((1 << 8) - 1) & (rgbTotal >> 16));
-        green = (((1 << 8) - 1) & (rgbTotal >> 8));
-        blue = (((1 << 8) - 1) & (rgbTotal >> 0));
+    public Colour(int combinedRGB) {
+        red = (((1 << 8) - 1) & (combinedRGB >> 16));
+        green = (((1 << 8) - 1) & (combinedRGB >> 8));
+        blue = (((1 << 8) - 1) & (combinedRGB >> 0));
     }
 
     public Colour() throws Exception{
