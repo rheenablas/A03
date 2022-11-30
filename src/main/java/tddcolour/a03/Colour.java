@@ -1,15 +1,18 @@
 package tddcolour.a03;
 
 
-import java.util.Random;
-
 public class Colour {
 
     double red, green, blue;
     public Colour(double red, double green, double blue) {
-        this.red = red;
-        this.green = green;
-        this.blue = blue;
+        if (red > 1 || green > 1 || blue > 1){
+          throw new IllegalArgumentException();
+        }
+        else{
+            this.red = red;
+            this.green = green;
+            this.blue = blue;
+        }
     }
 
     public Colour(int combinedRGB) {
