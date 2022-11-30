@@ -16,8 +16,8 @@ class ColourTest {
     }
 
     @Test
-    @DisplayName("Colour with three float argument with correct argument value")
-    void checkThreeArgumentConstructorValues(){
+    @DisplayName("Colour with three float argument with correct local variable value")
+    void checkAssignedValuesFromThreeArgumentConstructor(){
         assertThrows(IllegalArgumentException.class, () -> new Colour(2, -0.3, 0.2));
     }
 
@@ -28,6 +28,14 @@ class ColourTest {
         assertNotNull(colour);
     }
 
+    @Test
+    @DisplayName("Colour with one argument with correct value assigned to local variables")
+    void checkAssignedValuesFromOneArgumentConstructor(){
+        colour = new Colour(2364334);
+        assertEquals(colour.getRed(), 36);
+        assertEquals(colour.getGreen(), 19);
+        assertEquals(colour.getBlue(), 174);
+    }
 
     @Test
     @DisplayName("Colour with no argument throws an exception")

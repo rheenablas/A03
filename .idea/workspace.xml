@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="Created a new test that checks range of floating point values">
+    <list default="true" id="1ca7867c-8199-4387-9ebb-11de0d5e71e0" name="Changes" comment="Added exception on 3-argument constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tddcolour/a03/Colour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tddcolour/a03/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tddcolour/a03/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <recent name="tddcolour.a03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTest.checkThreeArgumentConstructorValues">
+  <component name="RunManager" selected="JUnit.ColourTest.checkOneArgumentConstructorValue">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -77,6 +76,22 @@
       <option name="PACKAGE_NAME" value="tddcolour.a03" />
       <option name="MAIN_CLASS_NAME" value="tddcolour.a03.ColourTest" />
       <option name="METHOD_NAME" value="checkColourNoArgument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.checkOneArgumentConstructorValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tddcolour.a03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tddcolour.a03" />
+      <option name="MAIN_CLASS_NAME" value="tddcolour.a03.ColourTest" />
+      <option name="METHOD_NAME" value="checkOneArgumentConstructorValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest.checkOneArgumentConstructorValue" />
         <item itemvalue="JUnit.ColourTest.checkThreeArgumentConstructorValues" />
         <item itemvalue="JUnit.ColourTest.equalColours" />
         <item itemvalue="JUnit.ColourTest" />
@@ -251,7 +267,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669821630258</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created a new test that checks range of floating point values">
+      <created>1669822194041</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669822194041</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Created a new test that checks range of floating point values">
+      <created>1669822293252</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669822293252</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added exception on 3-argument constructor">
+      <created>1669822395925</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669822395925</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +319,7 @@
     <MESSAGE value="Added an assertion in equalColours() to make it fail" />
     <MESSAGE value="Fixed single argument constructor to fit specifications" />
     <MESSAGE value="Created a new test that checks range of floating point values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new test that checks range of floating point values" />
+    <MESSAGE value="Added exception on 3-argument constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exception on 3-argument constructor" />
   </component>
 </project>
