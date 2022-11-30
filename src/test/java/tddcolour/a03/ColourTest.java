@@ -16,7 +16,13 @@ class ColourTest {
     }
 
     @Test
-    @DisplayName("Colour with one arguments is not null")
+    @DisplayName("Colour with three float argument with correct argument value")
+    void checkThreeArgumentConstructorValues(){
+        assertThrows(IllegalArgumentException.class, () -> new Colour(2, -0.3, 0.2));
+    }
+
+    @Test
+    @DisplayName("Colour with one argument is not null")
     void checkColourOneArgumentConstructor(){
         colour = new Colour(43);
         assertNotNull(colour);
